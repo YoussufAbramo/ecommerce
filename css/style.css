@@ -1,0 +1,22 @@
+/* navbar */
+.navbar{
+    z-index: 9999999;
+}
+.navbar-nav .nav-item{
+    margin: 0 15px;
+}
+.navbar-nav a{
+    color: #000;
+    font-size: 13px;
+    transition: color 500ms ease;
+
+}
+.navbar-nav a:hover{
+    color: #71cd14;
+}
+.social li{
+    padding: 0 10px !important;
+}
+.social li a{
+    font-size: 16px;
+}
