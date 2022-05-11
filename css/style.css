@@ -1,3 +1,13 @@
+:root{
+    --dark-green: #137e5e;
+    --pr-color: #1baa80;
+    --light-color:#20c997;
+    --txt-primary:#333;
+    --txt-sec: #888;
+    --txt-third:#252b33;
+    --txt-light:#dee3e4;
+}
+
 /* navbar */
 .navbar{
     z-index: 9999999;
@@ -6,13 +16,16 @@
     margin: 0 15px;
 }
 .navbar-nav a{
-    color: #000;
+    color: var(--txt-primary);
     font-size: 13px;
+    font-weight: 400;
     transition: color 500ms ease;
-
 }
 .navbar-nav a:hover{
-    color: #71cd14;
+    color: var(--light-color);
+}
+.social{
+    margin-right: 20px;
 }
 .social li{
     padding: 0 10px !important;
