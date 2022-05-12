@@ -105,3 +105,19 @@
     color: var(--green);
 
 }
+
+/* feature boxes */
+.feature-box {
+    padding: 30px 15px;
+    margin-bottom: 50px;
+    border: 1px solid var(--txt-light);
+}
+
+.feature-box h3 {
+    font-size: 15px;
+    margin: 24px 0px 4px;
+}
+
+.feature-box h3 {
+    font-size: 14px;
+}
