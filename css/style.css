@@ -66,7 +66,6 @@
 }
 .slider-content{
     height: 125vh;
-    width: 400px;
 }
 .slider p{
     color: #fff;
@@ -76,7 +75,7 @@
 }
 .slider h3{
     color: #fff;
-    font-size: 52px;
+    /* font-size: 52px; */
     font-weight: 700;
     margin-bottom: 20px;
     font-family: 'Heebo', sans-serif;
