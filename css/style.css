@@ -36,6 +36,7 @@
 .social li a{
     font-size: 16px;
 }
+<<<<<<< HEAD
 .navbar-nav .dropdown ul li {
     transition: all 500ms ease;
 }
@@ -100,3 +101,7 @@
     color: var(--green);
 
 }
+||||||| 33a43c8
+>>>>>>> 7bc49e66a6f1b770d028bfd5854629a5d2607913
+=======
+>>>>>>> e39924b548d88ff5b845e42ac48e3761051f5e2b
