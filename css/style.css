@@ -121,3 +121,33 @@
 .feature-box h3 {
     font-size: 14px;
 }
+
+/* start blog style*/
+
+
+.scale img{
+    width:100%;
+    transition: 1.5s all ease-in-out;
+    
+}
+.scale:hover  img{
+    transform: scale(1.3);
+    
+    }
+.card-img{
+    overflow: hidden;
+}
+.card-title{
+    transition: all 1s;
+}
+.card-bootom{
+    transition: all 1s;
+}
+
+.card-group:hover .card-title{
+    color:var(--green);
+}
+.card-group:hover .card-bootom{
+    color:var(--green);
+}
+/* end blog style */
