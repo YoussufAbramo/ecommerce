@@ -36,6 +36,21 @@
 .social li a{
     font-size: 16px;
 }
+.navbar-nav .dropdown ul li {
+    transition: all 500ms ease;
+}
+.navbar-nav .dropdown ul li a{
+    transition: all 500ms ease;
+}
+.navbar-nav .dropdown ul{
+    background-color: #fff !important;
+}
+.navbar-nav .dropdown ul li:hover{
+    background-color: var(--green) !important;
+}
+.navbar-nav .dropdown ul li:hover a{
+    color: #fff !important;
+}
 
 /* slider */
 .slider{
