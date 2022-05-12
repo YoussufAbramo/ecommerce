@@ -1,4 +1,5 @@
 :root{
+    --green: #71cd14;
     --dark-green: #137e5e;
     --pr-color: #1baa80;
     --light-color:#20c997;
@@ -14,6 +15,9 @@
 .navbar-nav .nav-item{
     margin: 0 15px;
 }
+.navbar-nav .active{
+    color: var(--green) !important;
+}
 .navbar-nav a{
     color: var(--txt-primary);
     font-size: 13px;
@@ -21,7 +25,7 @@
     transition: color 500ms ease;
 }
 .navbar-nav a:hover{
-    color: var(--light-color);
+    color: var(--green);
 }
 .social{
     margin-right: 20px;
@@ -31,4 +35,53 @@
 }
 .social li a{
     font-size: 16px;
+}
+
+/* slider */
+.slider{
+    background-image: url(../imgs/banner-bg.jpg);
+    background-position: center 65px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 125vh;
+}
+.slider-content{
+    height: 125vh;
+    width: 400px;
+}
+.slider p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.slider h3{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.slider-content span{
+    color: var(--green);
+}
+.slider-content h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Heebo', sans-serif;
+}
+.slider-content .btn-green{
+    width: 200px;
+    padding: 15px 5px !important;
+    border-color: var(--green);
+    background-color: var(--green) !important;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+.slider-content .btn-green:hover{
+    background-color: rgba(var(--green), 0) !important;
+    color: var(--green);
+
 }
