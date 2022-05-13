@@ -133,7 +133,7 @@
 
 /* start full width image */
 #img-fluid .img-fluid {
-    background: url('../imgs/fashion-men.webp') no-repeat center;
+    background: url(../imgs/fashion-men.webp) no-repeat center;
     background-size: cover;
     min-height: 550px;
     height: 550px;
