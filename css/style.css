@@ -8,6 +8,27 @@
     --txt-third:#252b33;
     --txt-light:#dee3e4;
 }
+
+/*** General CSS ***/
+/** Text **/
+.txt-pr{color:var(--txt-primary)}
+.txt-green{color:var(--green)}
+.txt-grey{color:var(--txt-sec)}
+/** Button **/
+.btn-green{
+    border-color: var(--green);
+    background-color: var(--green) !important;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+.btn-green:hover{
+    background-color: rgba(var(--green), 0) !important;
+    color: var(--green);
+}
+
+
 /* navbar */
 .navbar{
     z-index: 9999999;
@@ -93,17 +114,6 @@
 .slider-content .btn-green{
     width: 200px;
     padding: 15px 5px !important;
-    border-color: var(--green);
-    background-color: var(--green) !important;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 500;
-    transition: all 500ms ease;
-}
-.slider-content .btn-green:hover{
-    background-color: rgba(var(--green), 0) !important;
-    color: var(--green);
-
 }
 
 /* feature boxes */
@@ -120,4 +130,17 @@
 
 .feature-box h3 {
     font-size: 14px;
+}
+
+/* full width image */
+#img-fluid .img-fluid {
+    background-image: url('/imgs/fashion-men.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+    height: 550px;
+}
+.img-fluid > div {
+    height: 550px;
 }

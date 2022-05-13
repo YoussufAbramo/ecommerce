@@ -1,0 +1,10 @@
+v0.10 :
+        - design "feature box" section
+        - "index.html" & "style.css" are modified
+
+v0.11 :
+        Ahmed Ramadan
+
+v0.12 :
+        - make "btn" classes applied generally on the whole code
+        - design "full width image" section
