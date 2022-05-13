@@ -1,3 +1,13 @@
+v0.1 :
+        === Amira ===
+        - install project environment
+        - design navigation bar / header
+        - add custom CSS
+
+v0.2 :
+        === Amira ===
+        - design the slider
+
 v0.10 :
         === Youssuf Abramo ===
         - design "feature box" section
@@ -5,9 +15,21 @@ v0.10 :
 
 v0.11 :
         === Ahmed Ramadan ===
+        - Design the blog section
 
 v0.12 :
         === Youssuf Abramo ===
         - make "btn" classes applied generally on the whole code
         - design "full width image" section
         - make gray color on text
+v0.12.2 :
+        ===
+        - fix image in "full width image" section (was not appearing)
+
+v0.12.3 :
+        === Youssuf Abramo ===
+        - Add Go To Top Button
+
+
+
+*** Next Version Should Be v0.13 ***

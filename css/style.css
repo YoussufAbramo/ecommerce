@@ -1,3 +1,5 @@
+/*** General CSS ***/
+/** root **/
 :root{
     --green: #71cd14;
     --dark-green: #137e5e;
@@ -8,8 +10,16 @@
     --txt-third:#252b33;
     --txt-light:#dee3e4;
 }
-
-/*** General CSS ***/
+/** ALL **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection {
+    color: var(--dark-green);
+    background-color: var(--green);
+}
 /** Text **/
 .txt-pr{color:var(--txt-primary)}
 .txt-green{color:var(--green)}
@@ -27,7 +37,26 @@
     background-color: rgba(var(--green), 0) !important;
     color: var(--green);
 }
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(113, 205, 20, 0.25);
+}
+/*** END General CSS ***/
 
+/* Go To Top */
+#go-to-top {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    height: 40px;
+    width: 40px;
+}
+#go-to-top:hover {
+    background-color: white !important;
+}
+#go-to-top i{
+    text-align: center;
+}
+/* End Go To Top*/
 
 /* navbar */
 .navbar{
