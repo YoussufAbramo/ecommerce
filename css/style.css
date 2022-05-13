@@ -116,23 +116,22 @@
     padding: 15px 5px !important;
 }
 
-/* feature boxes */
+/* start feature boxes */
 .feature-box {
     padding: 30px 15px;
     margin-bottom: 50px;
     border: 1px solid var(--txt-light);
 }
-
 .feature-box h3 {
     font-size: 15px;
     margin: 24px 0px 4px;
 }
-
 .feature-box h3 {
     font-size: 14px;
 }
+/* end feature boxes */
 
-/* full width image */
+/* start full width image */
 #img-fluid .img-fluid {
     background-image: url('/imgs/fashion-men.webp');
     background-position: center;
@@ -144,3 +143,33 @@
 .img-fluid > div {
     height: 550px;
 }
+/* end full width image */
+
+
+/* start blog style*/
+.scale img{
+    width:100%;
+    transition: 1.5s all ease-in-out;
+    
+}
+.scale:hover  img{
+    transform: scale(1.3);
+    
+    }
+.card-img{
+    overflow: hidden;
+}
+.card-title{
+    transition: all 1s;
+}
+.card-bootom{
+    transition: all 1s;
+}
+
+.card-group:hover .card-title{
+    color:var(--green);
+}
+.card-group:hover .card-bootom{
+    color:var(--green);
+}
+/* end blog style */
