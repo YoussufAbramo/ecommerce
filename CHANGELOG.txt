@@ -26,7 +26,7 @@ v0.12.2 :
         ===
         - fix image in "full width image" section (was not appearing)
 
-v0.12.3 :
+v0.12.4 :
         === Youssuf Abramo ===
         - Add Go To Top Button
 
