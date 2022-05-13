@@ -1,10 +1,13 @@
 v0.10 :
+        === Youssuf Abramo ===
         - design "feature box" section
         - "index.html" & "style.css" are modified
 
 v0.11 :
-        Ahmed Ramadan
+        === Ahmed Ramadan ===
 
 v0.12 :
+        === Youssuf Abramo ===
         - make "btn" classes applied generally on the whole code
         - design "full width image" section
+        - make gray color on text
