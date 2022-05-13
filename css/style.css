@@ -199,4 +199,22 @@
 .card-group:hover .card-bootom{
     color:var(--green);
 }
+.card-title h5{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.card-title .card-text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:var(--txt-sec);
+}
+.card-bootom{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
 /* end blog style */

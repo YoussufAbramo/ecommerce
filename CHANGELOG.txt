@@ -31,6 +31,12 @@ v0.12.4 :
         - Add Go To Top Button
 
 
+v0.13
+            === Ahmed Ramadan ===
+        -edit blog section
+        
+
+
 
 
 *** Next Version Should Be v0.13 ***
