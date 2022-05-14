@@ -15,6 +15,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+
 }
 *::selection {
     color: var(--dark-green);
@@ -199,4 +201,79 @@
 .card-group:hover .card-bootom{
     color:var(--green);
 }
+.card-title h5{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.card-title .card-text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:var(--txt-sec);
+}
+.card-bootom{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
 /* end blog style */
+
+/* footer */
+
+footer{
+    background-color:rgb(13, 13, 31);
+    height: 100vh;
+}
+h4{
+    font-size:18px;
+    font-family: 'Heebo', sans-serif;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+    transition: all .5s;
+}
+ul a:hover{
+    color: #fff !important;
+}
+p{
+    font-size: 14px;
+    color: #797979;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+input, .icons{
+    background-color: #495057;
+    transition: all 1s;
+}
+.icons:hover{
+    background-color: var(--green);
+}
+.parent{
+    position: relative;
+}
+button{
+    background-color: var(--green);
+    border: 0;
+    color: #fff;
+    position: absolute;
+    z-index: 99;
+    left: 80%;
+    bottom: 15%;
+    
+}
+.copy-p{
+    color:#fff
+}
+.copy-color{
+   color: var(--green);
+   cursor: pointer;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+}
+/* End footer Style */

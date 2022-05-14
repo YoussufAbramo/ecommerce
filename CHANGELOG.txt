@@ -39,5 +39,11 @@ v0.14 :
         - edit fluid image section to be good at responsive
         - 
 
+v0.13
+            === Ahmed Ramadan ===
+        -edit blog section
+        
+
+
 
 *** Next Version Should Be v0.15 ***
