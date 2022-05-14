@@ -32,8 +32,12 @@ v0.12.4 :
 
 
 v0.13
-            === Ahmed Ramadan ===
+        === Ahmed Ramadan ===
         -edit blog section
+
+v0.13.1
+        === Ahmed Ramadan ===
+        -add padding to the blog footer        
         
 
 
