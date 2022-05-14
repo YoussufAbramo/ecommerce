@@ -161,7 +161,7 @@
 /* end feature boxes */
 
 /* start full width image */
-#img-fluid .img-fluid {
+#img-fluid > div > .bg-img-sale {
     background: url(../imgs/fashion-men.webp) no-repeat center;
     background-size: cover;
     min-height: 550px;

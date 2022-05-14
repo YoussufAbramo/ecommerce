@@ -23,14 +23,21 @@ v0.12 :
         - design "full width image" section
         - make gray color on text
 v0.12.2 :
-        ===
+        === Youssuf Abramo ===
         - fix image in "full width image" section (was not appearing)
 
 v0.12.4 :
         === Youssuf Abramo ===
         - Add Go To Top Button
 
+v0.13 :
+        === Azhar ===
+        - design footer
+
+v0.14 :
+        === Youssuf Abramo ===
+        - edit fluid image section to be good at responsive
+        - 
 
 
-
-*** Next Version Should Be v0.13 ***
+*** Next Version Should Be v0.15 ***
