@@ -22,6 +22,7 @@ v0.12 :
         - make "btn" classes applied generally on the whole code
         - design "full width image" section
         - make gray color on text
+
 v0.12.2 :
         === Youssuf Abramo ===
         - fix image in "full width image" section (was not appearing)
@@ -30,10 +31,14 @@ v0.12.4 :
         === Youssuf Abramo ===
         - Add Go To Top Button
 
-v0.13
+v0.13 :
         === Ahmed Ramadan ===
         - edit blog section
-        
+
+v0.13.1 :
+        === Ahmed Ramadan ===
+        - add padding to the blog footer        
+
 v0.14 :
         === Azhar ===
         - design footer
@@ -41,7 +46,6 @@ v0.14 :
 v0.15 :
         === Youssuf Abramo ===
         - edit fluid image section to be good at responsive
-        - 
 
 
 *** Next Version Should Be v0.16 ***
