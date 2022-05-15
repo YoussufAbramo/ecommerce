@@ -30,20 +30,18 @@ v0.12.4 :
         === Youssuf Abramo ===
         - Add Go To Top Button
 
-v0.13 :
+v0.13
+        === Ahmed Ramadan ===
+        - edit blog section
+        
+v0.14 :
         === Azhar ===
         - design footer
 
-v0.14 :
+v0.15 :
         === Youssuf Abramo ===
         - edit fluid image section to be good at responsive
         - 
 
-v0.13
-            === Ahmed Ramadan ===
-        -edit blog section
-        
 
-
-
-*** Next Version Should Be v0.15 ***
+*** Next Version Should Be v0.16 ***
