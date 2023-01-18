@@ -175,6 +175,9 @@
 .img-fluid > div {
     height: 550px;
 }
+#img-fluid .row {
+    --bs-gutter-x: 0;
+}
 /* End Full Width Image */
 
 
