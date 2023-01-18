@@ -50,8 +50,9 @@
     bottom: 5%;
     height: 40px;
     width: 40px;
+    z-index: 99;
 }
-#go-to-top:hover {
+#go-to-top a:hover {
     background-color: white !important;
 }
 #go-to-top i{
@@ -71,6 +72,7 @@
 }
 .navbar-nav .active{
     color: var(--green) !important;
+    border-bottom: solid 2px;
 }
 .navbar-nav a{
     font-family: 'Heebo', sans-serif;
@@ -114,11 +116,11 @@
     background-image: url(../imgs/banner-bg.jpg);
     background-position: center 65px;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    height: 125vh;
+    background-size: cover;
+    height: 100vh;
 }
 .slider-content{
-    height: 125vh;
+    height: 100vh;
 }
 .slider p{
     color: #fff;
@@ -176,6 +178,33 @@
 /* End Full Width Image */
 
 
+/* Start Product Section */
+#products .sale-tag {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    background: tomato;
+    color: whitesmoke;
+    padding: 2px 8px;
+}
+
+#products .card-info {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+#products .card-bootom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* End Product Section */
+
+
+
 /* Start Blog Style */
 .scale img{
     width:100%;
@@ -190,9 +219,6 @@
     overflow: hidden;
 }
 .card-title{
-    transition: all 1s;
-}
-.card-bootom{
     transition: all 1s;
 }
 
@@ -219,15 +245,13 @@
     font-size: 12px;
     font-weight: 500;
     padding-bottom: 10px;
+    transition: all 1s;
 }
-
 /* End Blog Style */
 
 /* Start Footer */
-
 footer{
     background-color:rgb(13, 13, 31);
-    height: 100vh;
 }
 h4{
     font-size:18px;
@@ -240,6 +264,9 @@ a{
 }
 ul a:hover{
     color: #fff !important;
+}
+nav ul a:hover{
+    color: var(--green) !important;
 }
 p{
     font-size: 14px;
@@ -254,10 +281,16 @@ input, .icons{
 .icons:hover{
     background-color: var(--green);
 }
+nav .icons{
+    background-color: transparent;
+}
+nav .icons:hover{
+    background-color: transparent;
+}
 .parent{
     position: relative;
 }
-button{
+footer button{
     background-color: var(--green);
     border: 0;
     color: #fff;
@@ -265,7 +298,6 @@ button{
     z-index: 99;
     left: 80%;
     bottom: 15%;
-    
 }
 .copy-p{
     color:#fff
